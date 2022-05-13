@@ -1,2 +1,2 @@
 # Python-Coding
-Improving python coding
+Improving python coding, practicing more and starting competitive programming !
