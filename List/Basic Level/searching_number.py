@@ -1,3 +1,4 @@
+# Searching number's first occurence in an array
 class Solution:
 	def search(self,arr, n, k): 
     	# code here
