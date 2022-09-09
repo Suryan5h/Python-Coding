@@ -7,3 +7,10 @@ def getMinMax( a, n):
         if maxi<a[i]:
             maxi=a[i]
     return [mini,maxi]
+
+# OR
+
+def getMinMax( a, n):
+    mini = min(a)
+    maxi = max(a)
+    return [mini,maxi]
