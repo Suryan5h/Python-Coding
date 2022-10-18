@@ -1,0 +1,21 @@
+#FLIPKART Question
+
+class Solution:
+    
+    #Function to find the maximum occurring character in a string.
+    def getMaxOccurringChar(self,s):
+        #code here
+        mylist = sorted(s)
+        #print(mylist)
+        maxi=0
+        visited = dict()
+        for i in range(len(mylist)):
+            if mylist[i] not in visited.keys():
+                visited[mylist[i]]=1
+            else:
+                visited[mylist[i]]+=1
+            if maxi<visited[mylist[i]]:
+                maxi = visited[mylist[i]]
+                ch = mylist[i]
+        
+        return ch
