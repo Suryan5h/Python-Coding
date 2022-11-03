@@ -1,6 +1,7 @@
 class Solution:
 
-  #Sliding interval optimized method
+#Sliding interval optimized method
+#Find the maximum size which satisfies the condition arr(max)-arr(min)<=k and return total size - maxSize = Minimum number of elements to be deleted/removed.
 	def removals(self,arr, n, k):
 		# code here
 		i=0
